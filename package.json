@@ -1,0 +1,38 @@
+{
+  "name": "fusion-theme",
+  "displayName": "Fusion Theme",
+  "description": "Color mix for your vscode",
+  "version": "1.0.0",
+  "scripts": {
+		"publish": "vsce publish"
+	},
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "license": "MIT",
+  "publisher": "IvoPereira",
+	"author": {
+		"name": "Ivo Pereira",
+		"email": "ivopereira.jr12@gmail.com",
+		"url": "https://github.com/ivopereira-jr"
+	},
+  "categories": [
+    "Themes"
+  ],
+  "icon": "logo.png",
+  "keywords": [
+		"theme",
+		"dark",
+		"fusion-theme",
+		"color-theme"
+	],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fusion Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fusion-dark-color-theme.json"
+      }
+    ]
+  }
+}
